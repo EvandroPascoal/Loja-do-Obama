@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+  outline: none;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+    color: #777;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho .logoPesquisa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 8%;
+    background-color: #13c7ae;
+}
+
+.cabecalho .logoPesquisa form {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+}
+
+.cabecalho form input[type="text"] {
+    display: flex;
+    justify-content: flex-start;
+    width: 85%;
+    padding: 15px 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+.cabecalho form button {
+    width: 15%;
+    padding: 15px 10px;
+    background-color: #0cae98;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+.cabecalho .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 18px 8%;
+}
+
+.cabecalho .menu ul {
+    display: flex;
+}
+
+.menu .lista-menu li {
+    margin-right: 25px;
+    transition: .3s ease-in-out;
+}
+
+.cabecalho .menu ul li{
+    color: #9d9d9d;
+}
+
+.cabecalho .menu ul li:hover {
+    color: #fff;
+}
+
+/* SOCIAL-ICONS */
+.menu .social-icons ul {
+    display: flex;
+}
+
+.menu .social-icons li {
+    margin-left: 13px;
+}
+
+.menu .social-icons li a {
+    color: #fff;
+    padding: 2px 5px;
+    transition: .3s ease-in-out;
+}
+
+.menu .social-icons li .btn-facebook {
+    padding: 2px 8px;
+}
+
+.menu .social-icons li .btn-facebook:hover {
+    color: #fff;
+    background-color: #3b5998;
+    border-radius: 6px;
+}
+
+.menu .social-icons li .btn-twitter:hover {
+    color: #000;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.menu .social-icons li .btn-google:hover {
+    color: #E94134;
+    background-color: #fff;
+    border-radius: 6px;
+}

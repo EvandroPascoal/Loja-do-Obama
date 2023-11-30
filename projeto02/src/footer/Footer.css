@@ -1,0 +1,49 @@
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    background-color: #111;
+    padding: 50px 8%;
+}
+
+.newsletter h3 {
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.newsletter p {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.newsletter form {
+    margin-top: 10px;
+}
+
+.newsletter form input {
+    width: 40%;
+    margin-right: 8px;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    background-color: transparent;
+}
+
+.newsletter button {
+    width: 18%;
+    background-color: #fff;
+    padding: 15px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.rodape {
+    background-color: #13c7ae;
+    padding: 20px 8%;
+    text-align: center;
+}
+
+.rodape p {
+    color: #fff;
+}
